@@ -7,14 +7,14 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '~/.ssh/bernie.lu.pub') }}"
-      # - https://github.com/iaur.keys
+      - "{{ lookup('file', '~/.ssh/id_rsa_root.pub') }}"
+      - https://github.com/iaur.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/bernie.lu.pub') }}"
-      # - https://github.com/iaur.keys
+      - "{{ lookup('file', '~/.ssh/id_rsa_root.pub') }}"
+      - https://github.com/iaur.keys
 
 web_user: web
 web_group: www-data
