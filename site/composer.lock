@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e187c3fffc590642a6bc486b4a960f3",
+    "content-hash": "37afcb42e7059782d4c3a50d62d91f38",
     "packages": [
         {
             "name": "composer/installers",
@@ -333,7 +333,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.5"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.5",
+                "reference": "5.5"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -673,6 +674,24 @@
                 }
             ],
             "time": "2020-07-14T19:22:52+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wp-maintenance-mode",
+            "version": "2.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
+                "reference": "tags/2.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.2.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-maintenance-mode/"
         }
     ],
     "packages-dev": [
