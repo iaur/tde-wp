@@ -18,7 +18,7 @@
                 <header class="site-header">
                     
                     <a href="<?php echo home_url(); ?>" class="logo-eye">
-                        <img src="http://thedailyexploits.local/app/uploads/2020/10/LogoMakr-3Q4c31.png" alt="eye" height="60" width="200">
+                        <img src="https://thedailyexploits.co/app/uploads/2020/11/LogoMakr-3Q4c31.png" alt="eye" height="60" width="200">
                     </a>
 
                     <div class="mobile-flex">
