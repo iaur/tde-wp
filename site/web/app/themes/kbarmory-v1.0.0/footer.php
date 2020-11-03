@@ -7,8 +7,18 @@
                         <footer class="site-footer"> 
                             <p><?php bloginfo('name')?> - &copy;&copy;  - <?php echo date('Y'); ?> | Powered by kbarmory</p>
                         </footer>
+                        <nav class="footer-widget"><!-- footer navigation menu-->
+                    
+                                <?php
+                                    $args = array(
+                                        'theme_location' => 'footer'
+                                    );
+                                ?>
+                            
+                                <?php wp_nav_menu( $args); ?>       
+                        </nav><!-- /footer navigation menu-->
                     </div> 
-            
+                    
         </div><!-- /container -->
         
 
