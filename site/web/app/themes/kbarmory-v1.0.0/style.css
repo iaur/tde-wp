@@ -530,15 +530,6 @@ div.site-content {
     padding: 0 5px;
 }
 
-.content-special {
-    height: 70vh;
-    max-width: 760px; 
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    padding: 0 5px;
-    overflow: auto;
-}
 
 article.post {
     max-width: 80vw;
@@ -867,6 +858,30 @@ p.pmt a:visited {
     flex: 1;
     border: 5px solid greenyellow;
 } */
+
+/* #endregion */
+
+/* #region Special Template */
+
+.site-content-special {
+    font-size: 14px;
+    background: #E3F2FD;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0 65px 0;
+}
+
+.content-special {
+    height: 75vh;
+    max-width: 760px; 
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 0 5px;
+    overflow: auto;
+}
 
 /* #endregion */
 

@@ -9,7 +9,7 @@
 get_header();
  ?>
  <!-- Structure: Site-Content -->
-        <div class="site-content-front">
+        <div class="site-content-special">
                 
                 <div class="content-special">
                     <!-- Stucture: Main-Column -->
