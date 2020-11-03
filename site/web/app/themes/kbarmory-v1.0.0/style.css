@@ -344,6 +344,13 @@ justify-content: center;
     color: #212121;
     text-decoration: none;
 }
+
+.site-footer .footer-widget ul li.current-menu-item a:link, /*-- for header active state */
+.site-footer .footer-widget ul li.current-menu-item a:visited {
+    color: #FFEA00;
+    text-decoration: underline;
+    cursor: default;
+}
 /* #endregion */
 
 /* #region Front Page */
@@ -874,7 +881,7 @@ p.pmt a:visited {
 }
 
 .content-special {
-    height: 75vh;
+    height: 65vh;
     max-width: 760px; 
     display: flex;
     flex-direction: column;
