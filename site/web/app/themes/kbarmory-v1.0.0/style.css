@@ -566,6 +566,9 @@ div.site-content-exploits {
     div.site-content-exploits {
         padding-top: 80px;
     }
+    .tree {
+        height: 100vh;
+    }
 }
 
 .section-name {
@@ -584,7 +587,12 @@ div.site-content-exploits {
     display: flex;
     flex-direction: column;
     min-width: 310px;
+    height: 50vh;
 }
+
+.tree ul {
+    overflow: scroll;
+} 
 
 .tree ul li {
     list-style-type: "→";
