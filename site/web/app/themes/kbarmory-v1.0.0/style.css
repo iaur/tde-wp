@@ -582,7 +582,8 @@ div.site-content-exploits {
 }
 
 .tree-container {
-    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
     max-height: 100vh;
 } 
 
@@ -593,7 +594,6 @@ div.site-content-exploits {
     flex-direction: column;
     min-width: 310px;
 }
-
 
 .tree ul li {
     list-style-type: "→";
