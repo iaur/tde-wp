@@ -592,7 +592,6 @@ div.site-content-exploits {
     display: flex;
     flex-direction: column;
     min-width: 310px;
-    height: 50vh;
 }
 
 .tree ul {
@@ -619,20 +618,13 @@ div.site-content-exploits {
     display: flex;  
     align-items: left;
     flex-direction: column;
-    height: 100vh;
-    /*
-    width: 760px;
-    width: 80vw;
-    max-width: 760px;
-    overflow: auto;
-    padding: 0 5px;
-    */
     min-width: 320px;
     font-size: 16px;
 }
 .content-exploits {
     overflow-y: scroll;
     overflow-x: hidden;
+    height: 100vh;
 }
 
 
