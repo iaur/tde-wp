@@ -582,7 +582,7 @@ div.site-content-exploits {
 }
 
 .tree-container {
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     max-height: 100vh;
 } 
@@ -619,7 +619,7 @@ div.site-content-exploits {
     font-size: 16px;
 }
 .content-exploits {
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     height: 100vh;
 }
