@@ -1,4 +1,4 @@
-<!-- Structure: content.php is a reusable line or code part for the rest of the structure -->
+<!-- Structure: content.php is a reusable line or code part for the rest of the structure test test -->
 
 
 <article class="post">        
