@@ -45,7 +45,7 @@ get_header(); ?>
             </div>
 
             <div class="tree-container">
-                <ul>   
+                <ul class="aqtree3clickable">   
                     <?php 
                         $get_parent_cats = array(
                             'parent' => '0' //get top level categories only
@@ -102,7 +102,7 @@ get_header(); ?>
              <!-- Structure: Side-Bar Widgets -->
                 <?php get_sidebar(); ?>
              <!-- /Structure: Side-Bar Widgets -->
-        </div>                    
+        </div>
     </div>
 <!-- /Structure: Site-Content -->
 

@@ -593,20 +593,47 @@ div.site-content-exploits {
     display: flex;
     flex-direction: column;
     min-width: 310px;
+    /* background: #e84118; */
 }
 
-.tree ul li {
-    list-style-type: "→";
+.tree-container ul li {
+    /* background: green; */
+    padding: 5px 0px 5px 0px !important; 
+}
+
+.tree-container ul  {
+    padding-left: 25px !important;
+    font-size: 18px;
+}
+
+.tree-container ul li a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    font-weight: 550;
 }
 
 .tree ul li ul.children li {
-    list-style: initial;
+    list-style: none;
     padding: 3px 0px 3px 0px;
+    /* background: blue; */
+    font-size: 14px; 
+}
+
+.tree ul li ul.children li a {
+    color: #0065b3;
+    font-weight: normal;
+}
+
+.tree ul li ul.children li a:hover {
+   background-color: #ececec;
 }
 
 .tree li ul.children {
-    list-style-type: "→";
+    list-style: none;
     padding-left: 20px;
+    /* background: cadetblue; */
+    font-size: 16px;
 }
 
 .content-column {
@@ -655,6 +682,8 @@ p.pmt a:visited {
     color: #999;
 }
 
+/* Feature: Tree drop-down */
+
 /* #endregion  */
 
 /* #region Gigs */
@@ -680,13 +709,6 @@ p.pmt a:visited {
     margin: 0 auto;
   
 }
-
-/* .nav-gigs h3 {
-    display: flex;
-    justify-content: center;
-}
-*/
-
 
 .slide-right {
     position: fixed;
@@ -764,33 +786,8 @@ p.pmt a:visited {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg); 
     position: relative;
-    transition: all .4s ease-out;
-    /* 
-    display: inline-block;
-    background: #333;
-    height: 2px;
-    width: 18px;
-    */
+    transition: all .4s ease-out;    
   }
-
-/* .slide-right .button .menu-icon .nav-icon:before,
-.slide-right .button .menu-icon .nav-icon:after {
-  background: #333;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
-} */
-
-/* .slide-right .button .menu-icon .nav-icon:before {
-  top: 5px;
-}
-
-.slide-right .button .menu-icon .nav-icon:after {
-  top: -5px;
-} */
 
 /* menu btn */
 

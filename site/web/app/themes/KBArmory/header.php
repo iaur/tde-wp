@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title><?php bloginfo('name'); ?></title>
         <?php wp_head(); ?>
+        <script src="https://www.kryogenix.org/code/browser/aqlists/aqtree3clickable.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://www.kryogenix.org/code/browser/aqlists/aqtree3clickable.css">
     </head>
 
     <body <?php body_class(); ?> >
