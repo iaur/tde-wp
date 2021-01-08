@@ -99,8 +99,19 @@ get_header(); ?>
             <div class="section-name">
                 <h3>Side Stuff</h3>
             </div>
-             <!-- Structure: Side-Bar Widgets -->
+             <!-- Structure: Side-Bar Widgets-->
                 <?php get_sidebar(); ?>
+                <div class="yearly-archive">
+                <h4>Archives</h4>
+                <?php
+                   $args = array(
+                    'type'              => 'yearly',
+                    'show_post_count'   => true
+                    );
+                    ?> 
+                <?php wp_get_archives($args); ?>  
+                </div>
+                
              <!-- /Structure: Side-Bar Widgets -->
         </div>
     </div>

@@ -656,7 +656,14 @@ div.site-content-exploits {
     order: 3;
     flex: 1;
     padding: 0px 20px;
-    
+}
+
+div.yearly-archive {
+    padding: 0px 20px;
+}
+
+div.yearly-archive li {
+    padding: 0px 25px;
 }
 
 .side-bar {
