@@ -100,16 +100,20 @@ get_header(); ?>
                 <h3>Side Stuff</h3>
             </div>
              <!-- Structure: Side-Bar Widgets-->
+
                 <?php get_sidebar(); ?>
+                
                 <div class="yearly-archive">
-                <h4>Archives</h4>
-                <?php
-                   $args = array(
-                    'type'              => 'yearly',
-                    'show_post_count'   => true
-                    );
-                    ?> 
-                <?php wp_get_archives($args); ?>  
+                    <h4>Archives</h4>
+
+                    <?php
+                    $args = array(
+                        'type'              => 'yearly',
+                        'show_post_count'   => true
+                        );
+                        ?> 
+                    <?php wp_get_archives($args); ?>
+
                 </div>
                 
              <!-- /Structure: Side-Bar Widgets -->
