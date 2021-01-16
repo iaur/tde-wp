@@ -106,7 +106,7 @@ get_header(); ?>
 
                                     echo '<ul class="post-title">';
 
-                                    $query = new WP_Query( array( 'cat'=> $childID, 'posts_per_page'=>10 ) );
+                                    $query = new WP_Query( array( 'cat'=> $childID, 'posts_per_page'=> -1 ) );
                                     while( $query->have_posts() ):$query->the_post();
                                     echo '<li><a href="'.get_the_permalink().'">'.get_the_title().'</a></li>';
                                     endwhile;
