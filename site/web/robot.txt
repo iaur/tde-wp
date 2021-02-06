@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /?s=
+Disallow: /search/
+Disallow: /wp/wp-admin/
+
+Allow: /wp/wp-admin/admin-ajax.php
+
+Sitemap: https://thedailyexploits.co/page-sitemap.xml
+Sitemap: https://thedailyexploits.co/post-sitemap.xml
+
+# Generated: Sunday, 7 February 2021 12:39 am (GMT+8)
