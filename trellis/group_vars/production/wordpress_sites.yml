@@ -5,9 +5,9 @@
 wordpress_sites:
   thedailyexploits.co:
     site_hosts:
-      - canonical: thedailyexploits.co
+      - canonical: www.thedailyexploits.co
         redirects:
-          - www.thedailyexploits.co
+          - thedailyexploits.co
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:iaur/tde-wp.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo

@@ -7,7 +7,7 @@ wordpress_sites:
     site_hosts:
       - canonical: thedailyexploits.local
       #  redirects:
-      #    - www.example.test
+        # - thedailyexploits.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: bernie.lu@outlook.com
     multisite:

@@ -675,10 +675,12 @@ div.site-content-exploits {
     justify-content: left;
 }
 
+/*
 .ads {
     display: flex;
     flex: 3;
 }
+*/
 
 /* Post Meta (pmt) CSS */
 .post h2 {
