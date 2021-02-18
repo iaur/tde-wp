@@ -115,8 +115,21 @@ get_header(); ?>
                     <?php wp_get_archives($args); ?>
 
                 </div>
-                
              <!-- /Structure: Side-Bar Widgets -->
+
+             <div class="ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Exploit-Page-Vertical Ad Unit -->
+                    <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-8248541475840368"
+                        data-ad-slot="2699305013"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+             </div>
         </div>
     </div>
 <!-- /Structure: Site-Content -->
