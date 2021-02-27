@@ -95,17 +95,15 @@ get_header(); ?>
             </div>
 
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Square Ad Unit -->
+            <!-- Square-Ad-Tree-Column -->
             <ins class="adsbygoogle"
-                style="display:block"
+                style="display:inline-block;width:255px;height:300px"
                 data-ad-client="ca-pub-8248541475840368"
-                data-ad-slot="4646526095"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
+                data-ad-slot="8209234685"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
-            
+
         </div>
         
         <div class="side-column">
