@@ -585,6 +585,7 @@ div.site-content-exploits {
     overflow-y: scroll;
     overflow-x: hidden;
     max-height: 100vh;
+    margin-bottom: 10px;
 } 
 
 .tree {
