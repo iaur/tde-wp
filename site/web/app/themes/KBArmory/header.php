@@ -27,7 +27,7 @@
     <body <?php body_class(); ?> >
 
 
-        <div class="container"><!-- container -->
+        <div class="container-all"><!-- container-all -->
         
                 <header class="site-header">
                     
