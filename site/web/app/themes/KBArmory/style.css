@@ -861,28 +861,10 @@ p.pmt a:visited {
     margin-bottom: auto;
 }
 
-/* .sub-container {
-
-    display: flex;
-    flex-direction: row;
-    border: 5px solid goldenrod;
-    min-height: 100vh;
+/* Code highlighter */
+div.syntaxhighlighter {
+    font-size: 80% !important;
 }
-
-
-.sub-tree {
-    display: flex;
-    background: #0065b3;
-    flex: 1;
-    border: 5px solid greenyellow;
-}
-
-.sub-content {
-    display: flex;
-    background: indianred;
-    flex: 1;
-    border: 5px solid greenyellow;
-} */
 
 /* #endregion */
 
