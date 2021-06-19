@@ -63,6 +63,58 @@ get_header(); ?>
 
                              </div>
 
+                             <div class="site-single-adspace">
+                                <div class="section-name">
+                                    <h4>Feedback or Help?</h4>
+                                </div>
+                                <!-- recycling class ; don't get get confused-->
+                                <div class="yearly-archive">
+                                    <p>Should you have one, click <a href="https://www.thedailyexploits.co/gigs/#freeconsultation">here</a></p>
+
+                                </div>
+
+                                <div class="section-name">
+                                    <h4>Boring Ads. Pardon me :)</h4>
+                                </div>
+
+                                <div class="square-ads">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- Square-Ad-Tree-Column -->
+                                    <ins class="adsbygoogle"
+                                        style="display:inline-block;width:255px;height:300px"
+                                        data-ad-client="ca-pub-8248541475840368"
+                                        data-ad-slot="8209234685"></ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </div>
+
+                                <div class="square-ads">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- Square-Ad-Tree-Column -->
+                                    <ins class="adsbygoogle"
+                                        style="display:inline-block;width:255px;height:300px"
+                                        data-ad-client="ca-pub-8248541475840368"
+                                        data-ad-slot="8209234685"></ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </div>
+
+                                <div class="square-ads">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- Square-Ad-Tree-Column -->
+                                    <ins class="adsbygoogle"
+                                        style="display:inline-block;width:255px;height:300px"
+                                        data-ad-client="ca-pub-8248541475840368"
+                                        data-ad-slot="8209234685"></ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </div>
+
+                             </div>
+
                     <?php        
                             endwhile;
 

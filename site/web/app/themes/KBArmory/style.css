@@ -562,6 +562,7 @@ article.post:last-of-type {
     } 
 }
 
+
 div.site-content-exploits {
     font-size: 14px;
     background: #E3F2FD;
@@ -848,18 +849,41 @@ p.pmt a:visited {
 
 /* #region Single Page*/
 
-.post-single {
-    max-width: 80vw;
-    padding: 0px 20px;
+
+@media (min-width: 68em) {
+    
+    .site-single-exploits {
+        flex-direction: row !important; 
+    }
+    
 }
 
 .site-single-exploits {
     display: flex;
     justify-content: center;
-    max-width: 760px;
+    flex-direction: column;
+    /*max-width: 760px;*/
+    width: 1260px;
     font-size: 16px;
     margin-bottom: auto;
 }
+
+.post-single {
+    /*max-width: 80vw;*/
+    flex: 3;
+    order: 1;
+    padding: 0px 20px;
+    
+}
+
+.site-single-adspace{
+    
+    order: 2;
+    flex: 1;
+    padding: 0px 20px;
+}
+
+
 
 /* Code highlighter */
 div.syntaxhighlighter {
