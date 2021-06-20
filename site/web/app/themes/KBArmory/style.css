@@ -855,7 +855,17 @@ p.pmt a:visited {
     .site-single-exploits {
         flex-direction: row !important; 
     }
+    .post-single{
+        flex: 3 !important;
+        order: 1 !important;
+    }
     
+    .site-single-adspace{
+        flex: 1 !important;
+        order: 2 !important;
+    }
+  
+
 }
 
 .site-single-exploits {
@@ -871,21 +881,20 @@ p.pmt a:visited {
 
 .post-single {
     /*max-width: 80vw;*/
-    flex: 3;
+    
     display: flex;
     flex: wrap;
-    /*width: 560px;*/
+    /*width: 780px;*/
     flex-direction: column;
-    order: 1;
+    
     padding: 0px 20px;
     
 }
 
 .site-single-adspace{
-    
-    order: 2;
-    flex: 1;
+
     padding: 0px 20px;
+    width: 330px;
 }
 
 .adspace-ads-container{
