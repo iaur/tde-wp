@@ -77,7 +77,11 @@ get_header(); ?>
                                     <h4>Boring Ads. Pardon me :)</h4>
                                 </div>
                                     
-                                    <div class="yearly-archive">
+                                    
+                                    <div class="adspace-ads-container">
+
+                                        <img src="http://thedailyexploits.local/app/uploads/2021/06/2021-06-20-at-1.57-PM.png" alt="test ad local">
+                                        
                                         <div class="square-ads">
                                             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                                             <!-- Square-Ad-Tree-Column -->

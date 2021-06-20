@@ -871,7 +871,10 @@ p.pmt a:visited {
 
 .post-single {
     /*max-width: 80vw;*/
-    flex: 2.5;
+    flex: 3;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
     order: 1;
     padding: 0px 20px;
     
@@ -884,7 +887,10 @@ p.pmt a:visited {
     padding: 0px 20px;
 }
 
-
+.adspace-ads-container{
+    margin-top: 20px;
+    padding: 0px 25px;
+}
 
 /* Code highlighter */
 div.syntaxhighlighter {
