@@ -860,6 +860,7 @@ p.pmt a:visited {
 
 .site-single-exploits {
     display: flex;
+    flex: wrap;
     justify-content: center;
     flex-direction: column;
     /*max-width: 760px;*/
@@ -870,7 +871,7 @@ p.pmt a:visited {
 
 .post-single {
     /*max-width: 80vw;*/
-    flex: 3;
+    flex: 2.5;
     order: 1;
     padding: 0px 20px;
     

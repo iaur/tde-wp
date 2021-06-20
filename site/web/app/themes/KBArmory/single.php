@@ -76,42 +76,57 @@ get_header(); ?>
                                 <div class="section-name">
                                     <h4>Boring Ads. Pardon me :)</h4>
                                 </div>
+                                    
+                                    <div class="yearly-archive">
+                                        <div class="square-ads">
+                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                            <!-- Square-Ad-Tree-Column -->
+                                            <ins class="adsbygoogle"
+                                                style="display:inline-block;width:255px;height:300px"
+                                                data-ad-client="ca-pub-8248541475840368"
+                                                data-ad-slot="8209234685"></ins>
+                                            <script>
+                                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                        </div>
 
-                                <div class="square-ads">
-                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- Square-Ad-Tree-Column -->
-                                    <ins class="adsbygoogle"
-                                        style="display:inline-block;width:255px;height:300px"
-                                        data-ad-client="ca-pub-8248541475840368"
-                                        data-ad-slot="8209234685"></ins>
-                                    <script>
-                                        (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
-                                </div>
+                                        <div class="square-ads">
+                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                            <!-- Square-Ad-Tree-Column -->
+                                            <ins class="adsbygoogle"
+                                                style="display:inline-block;width:255px;height:300px"
+                                                data-ad-client="ca-pub-8248541475840368"
+                                                data-ad-slot="8209234685"></ins>
+                                            <script>
+                                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                        </div>
 
-                                <div class="square-ads">
-                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- Square-Ad-Tree-Column -->
-                                    <ins class="adsbygoogle"
-                                        style="display:inline-block;width:255px;height:300px"
-                                        data-ad-client="ca-pub-8248541475840368"
-                                        data-ad-slot="8209234685"></ins>
-                                    <script>
-                                        (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
-                                </div>
+                                        <div class="square-ads">
+                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                            <!-- Square-Ad-Tree-Column -->
+                                            <ins class="adsbygoogle"
+                                                style="display:inline-block;width:255px;height:300px"
+                                                data-ad-client="ca-pub-8248541475840368"
+                                                data-ad-slot="8209234685"></ins>
+                                            <script>
+                                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                        </div>
 
-                                <div class="square-ads">
-                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- Square-Ad-Tree-Column -->
-                                    <ins class="adsbygoogle"
-                                        style="display:inline-block;width:255px;height:300px"
-                                        data-ad-client="ca-pub-8248541475840368"
-                                        data-ad-slot="8209234685"></ins>
-                                    <script>
-                                        (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
-                                </div>
+                                        <div class="square-ads">
+                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                            <!-- Square-Ad-Tree-Column -->
+                                            <ins class="adsbygoogle"
+                                                style="display:inline-block;width:255px;height:300px"
+                                                data-ad-client="ca-pub-8248541475840368"
+                                                data-ad-slot="8209234685"></ins>
+                                            <script>
+                                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                        </div>
+
+                                    </div>
 
                              </div>
 
