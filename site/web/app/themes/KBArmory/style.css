@@ -874,6 +874,7 @@ p.pmt a:visited {
     flex: 3;
     display: flex;
     flex: wrap;
+    /*width: 560px;*/
     flex-direction: column;
     order: 1;
     padding: 0px 20px;
@@ -890,6 +891,10 @@ p.pmt a:visited {
 .adspace-ads-container{
     margin-top: 20px;
     padding: 0px 25px;
+}
+
+.adspace-square-ads{
+    margin: auto;
 }
 
 /* Code highlighter */
