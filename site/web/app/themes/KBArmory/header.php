@@ -22,6 +22,15 @@
         <?php wp_head(); ?>
         <script src="https://www.kryogenix.org/code/browser/aqlists/aqtree3clickable.js" type="text/javascript"></script>
         <link rel="stylesheet" href="https://www.kryogenix.org/code/browser/aqlists/aqtree3clickable.css">
+
+        <!-- Announcement Bar JS -->
+        <script>
+            function Hide(HideID) 
+            {
+                HideID.style.display = "none"; 
+            }
+        </script>
+    
     </head>
 
     <body <?php body_class(); ?> >
@@ -57,8 +66,10 @@
                         </div>
                         <!-- /header-search -->
                     </div>
-                    
+
                 </header>
+
+                
 
         
         

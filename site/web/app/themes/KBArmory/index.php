@@ -7,6 +7,8 @@ get_header(); ?>
 
 <!-- Structure: Site-Content -->
     <div class="site-content-exploits">
+
+  
         <!-- Stucture: Main-Column -->
             <div class="content-column">
                 
@@ -143,6 +145,7 @@ get_header(); ?>
             </script>
 
         </div>
+        
     </div>
 <!-- /Structure: Site-Content -->
 

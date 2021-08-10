@@ -120,6 +120,19 @@ get_header(); ?>
                     ?>
                 </ul>
             </div>
+
+            <div class="square-ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Square-Ad-Tree-Column -->
+                <ins class="adsbygoogle"
+                    style="display:inline-block;width:255px;height:300px"
+                    data-ad-client="ca-pub-8248541475840368"
+                    data-ad-slot="8209234685"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            
         </div>
 
         <div class="side-column">
@@ -144,6 +157,19 @@ get_header(); ?>
                 </div>
                 
              <!-- /Structure: Side-Bar Widgets -->
+
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Exploit-Page-Vertical Ad Unit -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-8248541475840368"
+                    data-ad-slot="2699305013"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
         </div>                    
     </div>
 <!-- /Structure: Site-Content -->

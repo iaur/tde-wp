@@ -51,6 +51,7 @@ div.container-all {
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+    
 }
 
 .site-header .logo-eye {
@@ -228,6 +229,91 @@ background-color: #333;
         flex-direction: row;
     }
 
+}
+
+/* #endregion */
+
+/* #region Announcement bar */
+
+@media screen and (max-width: 768px) {
+    
+    .sub-site-content{
+        width: 320px;
+    }
+
+   .ShowHide{
+       height: 80px;
+   }
+
+   .ShowHide{
+    height: 80px;
+    
+}
+
+   #left {
+       font-size: small;
+       height: 60px !important;
+       padding-top: 20px !important;
+   }
+
+   #right {
+    padding-top: 30px !important;
+    
+   }
+
+   #right a{
+    color: gray !important;
+   }
+}
+
+.ShowHide {
+overflow: hidden;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #424242;
+color: #FFD600;
+padding:4px;
+}
+
+#left {
+overflow: hidden;
+text-align: center;
+height: 35px;  
+margin: 0px; 
+}
+
+#left p a {
+padding: 5px 10px;
+border-radius: 3px;
+background: #212121;
+color: #FFEA00;
+font-weight: bold;
+text-decoration: none;
+}
+
+#left p{
+margin: 0px !important;
+padding-top: 10px;
+}
+
+#right {
+float: right;
+width: 30px;
+height: 35px;
+text-align: center;
+padding-top: 10px;
+}
+
+.ShowHide a {
+color: #FFD600;
+text-decoration: none;
+}
+.ShowHide a:hover {
+text-decoration:underline;
+}
+
+#left a:hover {
+    background: #FFD600;
+    color: #212121;
 }
 
 /* #endregion */
@@ -662,6 +748,8 @@ div.site-content-exploits {
     order: 3;
     flex: 1;
     padding: 0px 20px;
+
+   
 }
 
 .yearly-archive {
@@ -858,35 +946,33 @@ p.pmt a:visited {
     .post-single{
         flex: 3 !important;
         order: 1 !important;
+        
     }
     
     .site-single-adspace{
         flex: 1 !important;
         order: 2 !important;
     }
-  
-
 }
+
+
 
 .site-single-exploits {
     display: flex;
     flex: wrap;
     justify-content: center;
     flex-direction: column;
-    /*max-width: 760px;*/
-    width: 1260px;
+    max-width: 1260px;
     font-size: 16px;
     margin-bottom: auto;
 }
 
 .post-single {
-    /*max-width: 80vw;*/
-    
     display: flex;
     flex: wrap;
-    /*width: 780px;*/
     flex-direction: column;
-    
+    max-width: 850px;
+    overflow-wrap: break-word;
     padding: 0px 20px;
     
 }
@@ -894,7 +980,8 @@ p.pmt a:visited {
 .site-single-adspace{
 
     padding: 0px 20px;
-    width: 330px;
+    max-width: 370px;
+
 }
 
 .adspace-ads-container{
