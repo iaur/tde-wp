@@ -11,6 +11,7 @@ get_header(); ?>
 
         <div class="sub-site-content">
 
+            <!-- Off mode - Announcement bar
             <div class="ShowHide" id="Bar">
                 <div id="right">
                         <a href="#" onclick="Hide(Bar);">X</a>                
@@ -19,8 +20,8 @@ get_header(); ?>
                     <p>VM reboot @ 10:00 PM EST, August 15, 2021. See  <small><a href="https://www.thedailyexploits.co/virtual-machine-maintenance/">Announcement</a></small></p>
                 </div>
             </div>
-
-            <!-- Stucture: Main-Column -->
+            -->
+            <!-- Stucture: Main-Column --> 
                     
             <div class="site-single-exploits">
 
