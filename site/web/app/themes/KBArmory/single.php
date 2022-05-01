@@ -84,7 +84,28 @@ get_header(); ?>
                             <!-- recycling class ; don't get get confused-->
                             <div class="yearly-archive">
                                 <p>Should you have one, click <a href="https://www.thedailyexploits.co/gigs/#freeconsultation">here</a></p>
-
+                            </div>
+                            <!-- recycling class ; Donation Section-->
+                            <div class="section-name">
+                                <h4>Feeling grateful?</h4>
+                            </div>
+                            <!-- recycling class ; don't get get confused-->
+                            <div class="paypal-donate">
+                            <div id="donate-button-container">
+                                <div id="donate-button"></div>
+                                    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                                    <script>
+                                    PayPal.Donation.Button({
+                                    env:'production',
+                                    hosted_button_id:'2KM6J6WQ2CURE',
+                                    image: {
+                                    src:'https://pics.paypal.com/00/s/ZGQxMGE3MTYtMmNmMS00ZTg5LWI5ZGYtNzUzMDQ0ZTFjNmM4/file.PNG',
+                                    alt:'Donate with PayPal button',
+                                    title:'PayPal - The safer, easier way to pay online!',
+                                    }
+                                    }).render('#donate-button');
+                                    </script>
+                                </div>
                             </div>
 
                             <div class="section-name">

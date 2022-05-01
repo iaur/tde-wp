@@ -760,6 +760,12 @@ div.site-content-exploits {
     padding: 0px 25px;
 }
 
+.paypal-donate {
+    display: flex;
+    align-items: center;
+}
+
+
 .side-bar {
     display: flex;
     flex-direction: column;
