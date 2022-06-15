@@ -17,7 +17,7 @@ get_header(); ?>
                         <a href="#" onclick="Hide(Bar);">X</a>                
                 </div>
                 <div id="left">
-                    <p>Need practice exams for Microsoft certifications?. Click  <small><a href="https://www.thedailyexploits.co/category/certification-practice-exam/">here</a></small></p>
+                    <p>Announcement: Need a free practice exam or an interactive mocks material for a Microsoft certification? Click  <small><a href="https://www.thedailyexploits.co/category/certification-practice-exam/">here</a></small> to use the MS Forms I've created previously.</p>
                 </div>
             </div>
             
